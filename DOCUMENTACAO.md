@@ -42,6 +42,21 @@ not -> Inverte o valor lógico
 - Ela é criada dentro de uma estrutura. Ela vale somente naquela estrutura e se em um outro nível ela ser utilizada, ela escapa porém pode ser reutilizada.
 
 
+# Funções [def]
+-> é um objeto guardado numva variável, que contém um bloco de código ainda não executado.
+Quando você a chama, o python cria um espaço de nomes novos e temporários.
+[def] -> Palavra-chave que inicia a declaração da função.
+[nome_funcao] -> Identificador - utilizando o padrão ``snake_case``.
+[parâmetros] -> Dados de entrada entre parênteses. 
+[argumentos] -> Valores que ocupam o lugar dos parâmetros.
+[docstring] -> Documentação entre aspas duplas.
+[corpo] -> Bloco identado contendo a lógica da função.
+[return] -> Valor retornado, se a def não tiver o return, o padrão é none.
+
+
+
+
+
 # Exercício - Sistema de Matrícula em curso.
 > Contexto: 
 - Uma escola está analisando se um aluno pode ser matricular em um curso profissionalizante. Para isso, o sistema precisa verificar algumas informações antes de aprovar ou negar a matrícula.
